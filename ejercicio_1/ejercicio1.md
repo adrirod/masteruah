@@ -28,6 +28,7 @@ Posteriormente, pasamos a inicializar el cliente Geth:
 ```console
 geth init genesis.json --datadir block_data
 ```
+(Ver imagen geth_init.png)
 
 Antes de comenzar a minar hay que crear la cuenta etherbase y una personal, para ello hay que abrir la consola de geth:
 ```console
@@ -48,6 +49,8 @@ Creadas ambas, se comienza a minar:
 ```console
 miner.start()
 ```
+(Ver imagen miner.png)
+
 Tras minar unos bloques, paramos el minado con:
 ```console
 miner.stop()
