@@ -1,6 +1,6 @@
 # Ejercicio 2
 
-##Con Geth
+## Con Geth
 
 Pasamos a transferir de la cuenta 0xae348a3982157e49174d5fdb4fcd1235acef0037 a
 0xe0613172db97c1708401dca784d9e3e0e1c6191f unos ethers. Para ello usamos debemos desbloquear la primera cuenta con el comando:
@@ -32,7 +32,7 @@ eth.getBalance(eth.accounts[1])
 
 (Ver imagen geth_result.png)
 
-##Con Ganache y Truffle
+## Con Ganache y Truffle
 
 Primero, hay que comprobar las cuentas disponibles:
 ```console
