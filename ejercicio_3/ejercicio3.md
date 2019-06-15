@@ -98,4 +98,12 @@ Lo cual ha devuelto:
 }]
 ```
 Por último para añadir manualmente un bootnode:
+```console
+bootnode --genkey=boot.key
+bootnode --nodekey=boot.key
+```
+Siendo la respuesta:
+```console
+INFO [06-15|19:23:24.310] New local node record                    seq=1 id=45c0696cac56563c ip=<nil> udp=0 tcp=0
+```
 
