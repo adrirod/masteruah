@@ -4,17 +4,9 @@ Primero nos conectamos a la red Rinkeby, para ello usamos el comando:
 ```console
 geth --rinkeby
 ```
-web3.eth.getPastLogs({
-    fromBlock: "earliest",
-    toBlock: "earliest"
-}).then(console.log);
+Para obtener el bloque genesis:
 
-var filter2 = web3.eth.filter({fromBlock: "0" toBlock:"1"});
 
-filter2.watch(function (error, log) {
-results = log;
- console.log(log);
-});
 
 Para obtener los peers a los que estoy conectado he utilizado el siguiente comando:
 ```console
@@ -105,3 +97,5 @@ Lo cual ha devuelto:
     }
 }]
 ```
+Por último para añadir manualmente un bootnode:
+
