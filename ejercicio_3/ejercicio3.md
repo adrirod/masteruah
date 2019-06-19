@@ -5,7 +5,45 @@ Primero nos conectamos a la red Rinkeby, para ello usamos el comando:
 geth --rinkeby
 ```
 Para obtener el bloque genesis:
-
+```console
+admin.nodeInfo
+```
+```console
+{
+  enode: "enode://61dab53c48695c62c46433724d71fa3c966d0b56932427a77a1e08752c985d89b125b8ca2161305041fe8ddfd9cd2de0639589d32582fa207704bd5a6fa78445@127.0.0.1:30304",
+  enr: "0xf896b840da2c34e09c6f9602f35b9f5665052bd50a4d9655103653e3fb0a98445840e4b9147cfa9901d71190bdfe0f38592bf77bd89d88e83ecc46ce5a4d57d1ef2dc4f70883636170c6c5836574683f826964827634826970847f00000189736563703235366b31a10361dab53c48695c62c46433724d71fa3c966d0b56932427a77a1e08752c985d898374637082766083756470827660",
+  id: "79e31826a5afbe6f0531b2cec224ebd114207133235743d4652c89a1a4f95819",
+  ip: "127.0.0.1",
+  listenAddr: "[::]:30304",
+  name: "Geth/v1.8.27-stable-4bcc0a37/linux-amd64/go1.10.4",
+  ports: {
+    discovery: 30304,
+    listener: 30304
+  },
+  protocols: {
+    eth: {
+      config: {
+        byzantiumBlock: 4370000,
+        chainId: 1,
+        constantinopleBlock: 7280000,
+        daoForkBlock: 1920000,
+        daoForkSupport: true,
+        eip150Block: 2463000,
+        eip150Hash: "0x2086799aeebeae135c246c65021c82b4e15a2c451340993aacfd2751886514f0",
+        eip155Block: 2675000,
+        eip158Block: 2675000,
+        ethash: {},
+        homesteadBlock: 1150000,
+        petersburgBlock: 7280000
+      },
+      difficulty: 17179869184,
+      **genesis: "0xd4e56740f876aef8c010b86a40d5f56745a118d0906a34e69aec8c0db1cb8fa3",**
+      head: "0xd4e56740f876aef8c010b86a40d5f56745a118d0906a34e69aec8c0db1cb8fa3",
+      network: 1
+    }
+  }
+}
+```
 
 
 Para obtener los peers a los que estoy conectado he utilizado el siguiente comando:
