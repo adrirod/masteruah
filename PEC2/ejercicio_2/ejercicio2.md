@@ -1,4 +1,6 @@
-#Ejercicio 2
+# Ejercicio 2
+
+**Las imagenes se encuentran en la carpeta de imagenes**
 
 Se va a utilizar el proyecto pet-shop-tutorial. **Este proyecto está desplegado en una red local con Ganache**
 
