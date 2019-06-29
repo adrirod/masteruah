@@ -19,3 +19,10 @@ Copio el hash de la carpeta:
 added QmSXkvV51kaLzV3WEEHDnZpNqQzgWV5S6xsLvRoiAQ6P3N src/
 ```
 http://127.0.0.1:8080/ipfs/QmSXkvV51kaLzV3WEEHDnZpNqQzgWV5S6xsLvRoiAQ6P3N/
+
+Por último, se configura un pin:
+
+```console
+ipfs pin add -r QmSXkvV51kaLzV3WEEHDnZpNqQzgWV5S6xsLvRoiAQ6P3N
+```
+ver imagen ipf_pin.png
