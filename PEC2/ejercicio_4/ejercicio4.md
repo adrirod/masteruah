@@ -1,5 +1,7 @@
 # Ejercicio 4
 
+Proyecto utilizado está desplegado en Ganache
+
 Se inicializa la conexión con Swarm:
 ```console
 swarm --bzzaccount 5be5cb0dea26d2c5a6b9e5c562eadb0b534b802a
