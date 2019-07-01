@@ -21,6 +21,6 @@ Se vuelve a inicializar swarm, pero esta vez con la API de ENS:
  ```console
 publicResolver.setContent(namehash('arpEther.tst'),'0x5b5ffbca02b04347298f11628ba145469c0c5e8c2ea44366583b9cd5d1da4355', {from: eth.accounts[0], gas: 100000})
 ```
-No se puede registrar debido al error de falta de fondos, aunque la cuenta pasada tiene fondos. Se deja el enlace para que se compruebe:
+Ver captura set_resolver.png.
 
-https://rinkeby.etherscan.io/address/0xe51757c6712504527ad8a5c04c7bc6b5f7f93ebe
+
