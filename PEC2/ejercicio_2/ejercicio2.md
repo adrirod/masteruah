@@ -9,6 +9,10 @@ Se inicializa IPFS:
 ```console
 ipfs daemon
 ```
+La subida de los ficheros se realiza con el comando:
+```console
+ipfs add -r src/
+```
 (ver imagen ipfs_daemon.png)
 
 Se adjunta captura donde se muestra la finalización de la carga. ver imagen  ipfs_cargado.png.
